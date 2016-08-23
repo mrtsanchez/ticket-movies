@@ -5,12 +5,82 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.0.js"></script>
     <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Open+Sans" rel="stylesheet">
 
-    <title></title>
+    <title>Wes Anderson Theater</title>
   </head>
   <body>
+    <div class="jumbotron">
+      <h1>WELCOME TO THE WES ANDERSON THEATER</h1>
+    </div>
     <div class="container">
+      <div class="row">
+      <form id="movies">
 
+        <div class="col-6-md">
+
+          <div id="step1">
+            <h1 class="title">Select your Movie:</h1>
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <select multiple class="form-control custom-select" size="5" id="select-movie">
+                  <option value="first-release">Moonrise Kingdom </option>
+                  <option value="movie2">The Life Aquatic with Steve Zissou</option>
+                  <option value="movie3">The Darjeeling Limited </option>
+                  <option value="first-release">Fantastic Mr. Fox</option>
+                  <option value="movie5">Rushmore </option>
+                </select>
+              </div>
+            </div>
+          <button class="btn btn-warning btn-next" id="next1" role="button">Next</button>
+
+          </div>
+
+          <div id="step2">
+          <h1 class="title">Chose your time:</h1>
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <select multiple class="form-control custom-select" size="5" id="select-time">
+                <option value="matine">11:30 am</option>
+                <option value="matine">12:05 pm</option>
+                <option value="afternoon">4:15 pm</option>
+                <option value="night">7:30 pm</option>
+                <option value="night">9:10 pm</option>
+              </select>
+            </div>
+          </div>
+          <button class="btn btn-warning btn-next" id="next2" role="button">Next</button>
+          </div>
+
+          <div id="step3">
+            <h1 class="title">What's your age?</h1>
+            <div class="panel panel-default">
+              <div class="panel-body">
+
+                <div class="form-group">
+
+                  <input type="number" class="form-control" id="age">
+                </div>
+              </div>
+            </div>
+
+                <button type="submit" class="btn btn-large btn-block btn-warning">Buy Ticket</button>
+                </div>
+
+
+
+        </div>
+      </form>
+      <div class="row">
+        <div class="col-md-6" id="step4">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              Your ticket price is $<span id="show-price"></span>. Enjoy your movie!
+              (display here movie image)
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
