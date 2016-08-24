@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="jumbotron">
-      <h1>WELCOME TO THE WES ANDERSON THEATER</h1>
+      <h1>WELCOME   TO THE   WES   ANDERSON   THEATER</h1>
     </div>
     <div class="container">
       <div class="row">
@@ -32,7 +32,7 @@
                 </select>
               </div>
             </div>
-          <button class="btn btn-warning btn-next" id="next1" role="button">Next</button>
+          <button class="btn btn-info btn-next" id="next1" role="button">Next</button>
 
           </div>
 
@@ -49,7 +49,7 @@
               </select>
             </div>
           </div>
-          <button class="btn btn-warning btn-next" id="next2" role="button">Next</button>
+          <button class="btn btn-info btn-next" id="next2" role="button">Next</button>
           </div>
 
           <div id="step3">
@@ -57,30 +57,33 @@
             <div class="panel panel-default">
               <div class="panel-body">
 
-                <div class="form-group">
-
-                  <input type="number" class="form-control" id="age">
+                <div class="col-xs-3 age-input">
+                  I'm <input type="number" class="form-control" id="age"> years old.
                 </div>
               </div>
             </div>
 
-                <button type="submit" class="btn btn-large btn-block btn-warning">Buy Ticket</button>
+                <button type="submit" class="btn btn-large btn-block btn-info">Buy Ticket</button>
                 </div>
-
-
 
         </div>
       </form>
-      <div class="row">
-        <div class="col-md-6" id="step4">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              Your ticket price is $<span id="show-price"></span>. Enjoy your movie!
-              (display here movie image)
+      </div>
+        <div class="row">
+          <div id="step4">
+            <div class="col-md-6">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  Your ticket price is $<span id="show-price"></span>. Enjoy your movie!
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <span id="movie-img"></span>
             </div>
           </div>
         </div>
-      </div>
+
     </div>
   </body>
 </html>

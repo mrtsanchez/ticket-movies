@@ -59,5 +59,7 @@ $(document).ready(function() {
 
     $("#show-price").text(price);
 
+    
+
   });
 });

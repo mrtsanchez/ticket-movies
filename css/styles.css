@@ -1,25 +1,26 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #F7F7FF;
+  background-color: #EAF2E3;
 }
 
 .jumbotron {
   font-family: 'Luckiest Guy', cursive;
   text-align: center;
-  background-color: #273E47;
-  color: #F7F7FF;
+  background-color: #53F4FF;
+  color: #F25757;
 }
 
 .custom-select {
-  background-color: #A4243B;
+  background-color: #F25757;
   font-size: 2em;
   color: white;
-  border-color: #A4243B;
   border-style: none;
+  border-radius: 0;
+  border: 0px solid #F25757;
 }
 
 .title {
-  color: #A4243B;
+  color: #090909;
 }
 
 #step2, #step3, #step4 {
@@ -28,6 +29,7 @@ body {
 
 #step4 {
   color:white;
+  font-size: 2em;
 }
 
 .btn-next {
@@ -36,6 +38,13 @@ body {
 
 .panel-default {
   margin-top: 20px;
-  height: 300px;
-  background-color: #A4243B;
+  height: 250px;
+  background-color: #F25757;
+}
+
+.age-input {
+  padding-top: 50px;
+  margin-left: 250px;
+  color: white;
+  font-size: 2em;
 }
